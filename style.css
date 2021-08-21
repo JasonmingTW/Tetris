@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/bkimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin:auto;
+    
+    
+    /* background: linear-gradient(to right top, #a0ec53, #0e5158); */
+}
+.container{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+#start-button{
+    margin-left: 46vw;
+    font-size: 1rem;
+    background: none;
+    padding: 0.4rem 0.6rem;
+    border: blueviolet solid;
+    border-radius: 1rem;
+    background: rgba(255, 227, 68, 0.459);
+}
+.grid{
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right top, #ffd782, #a3b9ff8e);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 20px rgba(243, 110, 225, 0.144);
+    border: solid;
+    
+    
+}
+.grid div{
+    width: 20px;
+    height: 20px;
+    
+}
+.tetromino{
+    background-color: cornflowerblue;
+}
+.miniGrid{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to left bottom, #970076, #c1ebf0);
+    box-shadow: 5px 5px 10px rgba(158, 74, 255, 0.308);
+    margin: -19rem 0rem 1rem 1rem;
+    border: solid;
+    
+}
+.miniGrid div{
+    width: 20px;
+    height: 20px;
+    
+}
